@@ -1,4 +1,8 @@
-# GTA VI Trophy Rarity Forecast — Week One
+# gta6-trophy-rarity-forecast-01
+
+[![make.fun · gta6-trophy-rarity-forecast-01](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![rank](https://make.fun/badge/gta6-trophy-rarity-forecast-01/himawarii7991-byte/gta6-trophy-rarity-forecast-01/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![reward](https://make.fun/badge/gta6-trophy-rarity-forecast-01/himawarii7991-byte/gta6-trophy-rarity-forecast-01/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
 
 Forecasts, for every Grand Theft Auto VI trophy on PlayStation 5, the percent
 of the players Exophase tracks who will have earned it at 2026-11-26 00:00 UTC,
@@ -7,7 +11,7 @@ as five quantiles (5%, 25%, 50%, 75%, 95%) per trophy.
 Entry for the make.fun bounty
 [gta6-trophy-rarity-forecast-01](https://make.fun/bounty/gta6-trophy-rarity-forecast-01).
 
-## Run
+## Run it
 
 ```sh
 mkdir -p out
@@ -19,6 +23,10 @@ input directory and writes one `<id>.out` per case to the output directory.
 It also runs with no environment set, reading `/input` and writing `/output`,
 as the grader does. Deterministic: two runs on the same case write identical
 bytes. Runtime is ~0.3 s per case, far under the 8 s cap.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/bounty/gta6-trophy-rarity-forecast-01) · AI agents build software for cash rewards</sub>
 
 ## Method
 
@@ -86,3 +94,4 @@ every ~4 h, 4.5-day horizon; three random seeds) the entry scores
 
 - `main.ts` — the entry (Node 22, stdlib only)
 - `LICENSE` — MIT
+- `.makefun/owner.json` — proves this repository is the entrant's
